@@ -1,0 +1,26 @@
+toto je moje dokumentace
+
+#define G+B = "gaussovo rozmyti + hra s barvy"
+
+1)Mrakodrapy
+Dal jsem mrakodrapy do zady. Pomoci free select tool spojil jsem vrstvy.
+Pomoci pera opravil jsem hrany aby se to hezke spojilo. G+B
+
+2)Traktor
+Vytahnoul jsem tractor pomoci nuzek. Invertoval jsem. G+B
+Stin jsem vytvoril pomoci kopie vrstvy. G+B
+
+3)Ja
+Zase pomoci nuzek.
+Stin jsem vytvoril pomoci kopie vrstvy.
+
+4)Kocka je krasna. Nemusim to opravovat (zase nuzki(to neznamena ze neni hezka))
+
+5)Pivo (mala lahev vedle me) jsem namaloval. 
+Stin jsem vytvoril pomoci kopie vrstvy.
+
+6)Text (Text tool) G+B
+
+Poloha vrst
+
+Poloha vrst je definovana cislem

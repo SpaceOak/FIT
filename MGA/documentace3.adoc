@@ -1,0 +1,138 @@
+= Zdrojove obrazky
+
+image::3d/1.JPG[900,600] 
+
+image::3d/2.JPG[900,600]
+
+image::3d/3.JPG[900,600]
+
+image::3d/4.JPG[900,600]
+
+*Software:* Blender
+
+= Postup
+
+== Velka kola + soucasti
+
+Velka kola se sklada s desitek kusu, proto budu to popisovat jako by se skladali s dvou.
+
+Levy kousek se sklada z kubu + array a na zaklade kruha. Uprostred je celinder. Z opacne strany je torus ktery jsem opravil pomoci kouzla.
+Docela nepochopil jak jsem to vytvoril, protoze postupni zkousil ruzne modifikace na to. (ty modifikace tam by nemneli byt(jako Deform -> Wave a tak dal))
+
+Pravy kousek se sklada z obdelniku (ten kruh) a hrbu ( obdelnik + obdelnik ( boulevska funkce (spojeni))) + array. 
+
+image::3d/1.PNG[900,600]
+
+== Zadni cast
+
+Note: na zacatku vytvoril jsem šroub pomoci obdelniku. ( abysme nemuseli se tomu venovat ( vsude budu uzivat ten samy sroub)).
+Nekdy budu rikat plus a minus jako boulevska funkce sjednoceni a ruznice
+
+image::3d/2.PNG[900,600]
+
+! Dal budu popisovat objekty zleva doprava
+
+image::3d/3.PNG[900,600]
+
+1)Prunik dvou kruhu + boulevska funkce (difference) s sroubem)
+
+2)Cylinder boulevska funkce (difference) s trohu mensim celindrem a pak to same s este mensim cilindrem (tim to padem vytvoril jsem tu diru)
+
+3)Kruh minus kruh (dvakrat)
+
+
+image::3d/4.PNG[900,600]
+
+1)Pulka kruha minus srouby
+
+2)Cylinder bez dolni casti 
+
+3)Pridal jsem cilindru vic hran a opravil jsem podle nih
+
+4)Cylinder bel dolni a horni hrany
+
+image::3d/5.PNG[900,600]
+
+Torus + obdelniki (nula stres)
+
+image::3d/6.PNG[900,600]
+
+1)Cylinder + gaussova krivka (dolu jsou cylindry)
+
+2)Zase cylinder minus cylinder
+
+3)Pridal jsem obdelniku nekolik hran a dlouho to opravoal (neni to slozity ale zabralo hodne casu).
+
+4)Obdelnik + par hran a manipulace s nima
+
+5)Cylinder
+
+6)Coub + okrouhlene hrany + boulevska funkce (differrence s necim co uz nepatuju)
+
+7)Cylinder + gaussova krivka
+
+== Predni kolo + soucasti
+
+image::3d/7.PNG[900,600]
+
+Postup zde byl docela jednoduchy
+
+image::3d/8.PNG[900,600]
+
+To jsou ruzna kombinace cylindru a gausovych krivek
+
+image::3d/9.PNG[900,600]
+
+Cylinder minus mensi cylinder v ruznych variacich. Nepodarilo se mi opravit jeden objekt tak aby to bylo chezky a proto vyresil jsem to pomoci kombimaci tech cylindru.
+Prvni objekt zprava je trochu jiny. Sclada se z obdelniku a cylindra mezi nima.
+
+image::3d/10.PNG[900,600]
+
+image::3d/11.PNG[900,600]
+
+1)Cub + cylinder - mensi cylinder + cylinder kteremu jsem pridal hrany a poravil podle toho
+
+2)Obdelnik kteremu pridal hrany a opravil. Na konce pridal cylinder.
+
+3)Obdelnik kteremu jsem okrouhlil hrany + obdelnik zdola a zhoru a celinder mezi nima - cylinder ( to je ta dira ). Boul fun spojit.
+
+== Motor a ostatni kousky
+
+image::3d/12.PNG[900,600]
+
+image::3d/13.PNG[900,600]
+
+Zase cylindry + gausseva krivka a jejich variace.
+
+image::3d/14.PNG[900,600]
+
+1)Obdelnik minus mensi obdelnik minus dalni cast minus srouby plus trohu opraveny obdelnik
+
+2)Cylinder minus pulka plus vetsi cylinder na konce a minus to co tam bylo navic kdyz jsem to spojil
+
+3)Obdelnik minus obdelnik (dvakrat) a okrouhlit
+
+image::3d/15.PNG[900,600]
+
+1)Okrouhleny obdelnik minus obdelnik a pak jsem roztahl horni cast a pak roztahl jsem to co jsem roztahl a zase okrouhlil
+
+2)Cylinder minus pulka plus obdelnik a okrouhlil
+
+3)Roztazeny okrouhleny cylinder
+
+image::3d/16.PNG[900,600]
+
+== Hotovo
+
+Cas ~8 hodin video tutorialu a ~20 hodin prace 
+
+= Vysledek
+
+image::3d/e.png[900,600]
+
+image::3d/q.png[900,600]
+
+image::3d/w.png[900,600]
+
+
+

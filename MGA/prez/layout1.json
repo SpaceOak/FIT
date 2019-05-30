@@ -1,0 +1,199 @@
+{
+	"sectors": [
+		{	"path":"dir1",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x": 0,
+				"y": 0
+			},
+			"size": {
+				"width":1920,
+				"height":1080
+			},
+			"images":[
+				"3.jpg"
+			]
+		},
+		{	"path":"dir1",
+			"loop": true,
+			"timing": 0,
+			"position": {
+				"x": 5760,
+				"y": 0
+			},
+			"size": {
+				"width":1920,
+				"height":1080
+			},
+			"images":[
+				"2.jpg"
+			]
+		},
+		{	"path":"dir1",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x": 1920,
+				"y": 0
+			},
+			"size": {
+				"width":1920,
+				"height":1080
+			},
+			"images":[
+				"4.jpg"
+			]
+		},
+		{	"path":"dir1",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x": 3840,
+				"y": 0
+			},
+			"size": {
+				"width":1920,
+				"height":1080
+			},
+			"images":[
+				"5.jpg"
+			]
+		},
+		{	"path":"dir1",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x": 7680,
+				"y": 0
+			},
+			"size": {
+				"width":1920,
+				"height":1080
+			},
+			"images":[
+				"6.jpg"
+			]
+		},
+			{	"path":"dir1",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x": 0,
+				"y": 1080
+			},
+			"size": {
+				"width":5760,
+				"height":3240
+			},
+			"images":[
+				"12.jpg"
+			]
+		},
+			{	"path":"dir1",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x": 7680,
+				"y": 1080
+			},
+			"size": {
+				"width":1920,
+				"height":1080
+			},
+			"images":[
+				"7.jpg"
+			]
+		},
+			{	"path":"dir1",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x": 5760,
+				"y": 1080
+			},
+			"size": {
+				"width":1920,
+				"height":1080
+			},
+			"images":[
+				"10.jpg"
+			]
+		},
+			{	"path":"dir1",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x": 5760,
+				"y": 2160
+			},
+			"size": {
+				"width":1920,
+				"height":1080
+			},
+			"images":[
+				"5.jpg"
+			]
+		},
+			{	"path":"dir1",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x": 5760,
+				"y": 2160
+			},
+			"size": {
+				"width":1920,
+				"height":1080
+			},
+			"images":[
+				"9.jpg"
+			]
+		},
+			{	"path":"dir1",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x": 7680,
+				"y": 2160
+			},
+			"size": {
+				"width":1920,
+				"height":1080
+			},
+			"images":[
+				"8.jpg"
+			]
+		},
+			{	"path":"dir1",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x": 5760,
+				"y": 3240
+			},
+			"size": {
+				"width":1920,
+				"height":1080
+			},
+			"images":[
+				"12.jpg"
+			]
+		},
+			{	"path":"dir1",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x": 7680,
+				"y": 3240
+			},
+			"size": {
+				"width":1920,
+				"height":1080
+			},
+			"images":[
+				"11.jpg"
+			]
+		}
+	]
+}

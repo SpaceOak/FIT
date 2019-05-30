@@ -1,0 +1,64 @@
+{
+	"sectors": [
+		{	"path":"test",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x": 0,
+				"y": 0
+			},
+			"size": {
+				"width":4800,
+				"height":2160
+			},
+			"images":[
+				"test1.jpg"
+			]
+		},
+			{	"path":"test",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x":4800,
+				"y": 0
+			},
+			"size": {
+				"width":4800 ,
+				"height":2160
+			},
+			"images":[
+				"test2.jpg"
+			]
+		},
+			{	"path":"test",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x":0,
+				"y":2160
+			},
+			"size": {
+				"width":4800 ,
+				"height":2160
+			},
+			"images":[
+				"test3.jpg"
+			]
+		},
+			{	"path":"test",
+			"loop": false,
+			"timing": 0,
+			"position": {
+				"x":4800,
+				"y":2160
+			},
+			"size": {
+				"width":4800 ,
+				"height":2160
+			},
+			"images":[
+				"test4.jpg"
+			]
+		}
+	]
+}
