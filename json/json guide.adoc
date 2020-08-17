@@ -111,6 +111,7 @@ Všechny vlastnosti jsou volitelné a jsou nastaveny na výchozí hodnoty, pokud
 Příklad aplikace
 Všechny aplikace potřebují minimálně složku obsahující dva soubory.
 Vytvořte složku. V této složce vytvořte soubor.Do souboru přidejte následující:
+----
 `
 {
   // Toto musí být název souboru skriptu
@@ -148,3 +149,4 @@ Vytvořte složku. V této složce vytvořte soubor.Do souboru přidejte násled
 	},	
 }
 `
+----
