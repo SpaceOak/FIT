@@ -1,5 +1,5 @@
 === Design aplikace. Práce s canvasem
-
+ `animation`
 
 JSON – úvod
 JSON: JavaScript Object Notation.
