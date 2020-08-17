@@ -16,16 +16,12 @@ Kudrnaté závorky drží objekty
 Protože syntaxe JSON je odvozena od zápisu objektu JavaScript, pro práci s JSON v JavaScriptu je potřeba jen velmi málo dalšího softwaru.
 Pomocí JavaScriptu můžete vytvořit objekt a přiřadit mu data, například:
 
-Příklad
-`{jméno: "John", věk: 31, město: "New York"};`
+Příklad:
+`{jméno: "John", věk: 31, město: "New York"}`
 K objektu JavaScript můžete přistupovat takto:
-
-Příklad
 // vrací Johna
-`Jméno.osoby;`
-
+`{Jméno.osoby}`
 Lze k němu také přistupovat takto:
-Příklad
 // vrací Johna
 `osoba ["jméno"];`
 
