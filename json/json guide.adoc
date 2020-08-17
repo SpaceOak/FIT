@@ -71,10 +71,6 @@ Klíče musí být řetězce a hodnoty musí být platný datový typ JSON (řet
 Klíče a hodnoty jsou odděleny dvojtečkou.
 Každý pár klíč / hodnota je oddělen čárkou.
 
-Příklad
-`myObj = { "name":"John", "age":30, "car":null };
-x = myObj.name;`
-
 == Ukazkova aplikace
 
 Novou aplikaci lze vytvořit spuštěním `npm run newapp` v základním adresáři SAGE2.
