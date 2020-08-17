@@ -75,20 +75,7 @@ Příklad
 `myObj = { "name":"John", "age":30, "car":null };
 x = myObj.name;`
 
-== Pole JSON
-Pole jako objekty JSON
-Příklad
-`["Ford", "BMW", "Fiat"]`
-Pole v JSON jsou téměř stejná jako pole v JavaScriptu.
-V JSON musí být hodnoty pole typu string, number, object, array, boolean nebo null.
-V JavaScriptu mohou být hodnoty polí všechny výše uvedené, plus jakýkoli jiný platný výraz jazyka JavaScript, včetně funkcí, dat a nedefinovaných.
-
-Příklad
-`{
-"name":"John",
-"age":30,
-"cars":[ "Ford", "BMW", "Fiat" ]
-}`
+== Ukazkova aplikace
 
 Novou aplikaci lze vytvořit spuštěním `npm run newapp` v základním adresáři SAGE2.
 Všechny vlastnosti jsou volitelné a jsou nastaveny na výchozí hodnoty, pokud není uvedeno.
