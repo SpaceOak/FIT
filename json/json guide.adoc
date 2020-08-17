@@ -1,3 +1,6 @@
+=== Design aplikace. Práce s canvasem
+
+
 JSON – úvod
 JSON: JavaScript Object Notation.
 JSON je syntaxe pro ukládání a výměnu dat.
