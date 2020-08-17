@@ -61,21 +61,6 @@ Příklad
 `{"zaměstnanec": {"jméno": "John", "věk": 30, "město": "New York"}}`
 Objekty jako hodnoty v JSON musí dodržovat stejná pravidla jako objekty JSON.
 
-Hodnoty v JSON mohou být pole.
-
-Příklad
-`{"zaměstnanci": ["John", "Anna", "Peter"]}`
-JSON Booleans
-Hodnoty v JSON mohou být pravdivé / nepravdivé.
-
-Příklad
-`{"sale": true}`
-JSON null
-Hodnoty v JSON mohou být nulové.
-
-Příklad
-`{"middlename": null}`
-
 == Objekty JSON
 Syntaxe objektu
 Příklad
