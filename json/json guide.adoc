@@ -92,7 +92,7 @@ Vytvořte složku. V této složce vytvořte soubor.Do souboru přidejte násled
   // Název, který se zobrazí v seznamu aplikací
   "title": "Hello World",
   // Volitelné ( nejsou povinné, ale jsou vhodné pro některé případy )
-  "autor": "Dylan Kobayashi <dylank@hawaii.edu>",
+  "autor": "Gospoja Kobayashi <gospo@yandex.uk>",
   "license": "SAGE2-Software-Licence"
   //Nejčastější věcí, kterou musíte udělat ve schématu JSON, je omezit se na konkrétní typ. K tomu se používá klíčové slovo "type".
   "description": "A product in the catalog",
