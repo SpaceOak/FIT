@@ -17,14 +17,13 @@ Protože syntaxe JSON je odvozena od zápisu objektu JavaScript, pro práci s JS
 Pomocí JavaScriptu můžete vytvořit objekt a přiřadit mu data, například:
 
 Příklad:
+----
 `{jméno: "John", věk: 31, město: "New York"}`
-K objektu JavaScript můžete přistupovat takto:
 // vrací Johna
 `{Jméno.osoby}`
-Lze k němu také přistupovat takto:
 // vrací Johna
 `osoba ["jméno"];`
-
+----
 == Pole JavaScriptu jako JSON
 Stejným způsobem lze objekty JavaScriptu použít jako JSON, pole JavaScript lze také použít jako JSON.
 
