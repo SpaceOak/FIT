@@ -106,7 +106,7 @@ Příklad
 "cars":[ "Ford", "BMW", "Fiat" ]
 }`
 
-Novou aplikaci lze vytvořit spuštěním npm run newapp v základním adresáři SAGE2.
+Novou aplikaci lze vytvořit spuštěním `npm run newapp` v základním adresáři SAGE2.
 Všechny vlastnosti jsou volitelné a jsou nastaveny na výchozí hodnoty, pokud není uvedeno.
 Příklad aplikace
 Všechny aplikace potřebují minimálně složku obsahující dva soubory.
