@@ -18,11 +18,12 @@ Pomocí JavaScriptu můžete vytvořit objekt a přiřadit mu data, například:
 
 Příklad:
 ----
-{jméno: "John", věk: 31, město: "New York"}
-// vrací Johna
-{Jméno.osoby}
-// da se to napsat tak to
-osoba ["jméno"]
+{
+jméno: "John", 
+věk: 31, 
+město: "New York"
+}
+
 ----
 == Pole JavaScriptu jako JSON
 Stejným způsobem lze objekty JavaScriptu použít jako JSON, pole JavaScript lze také použít jako JSON.
