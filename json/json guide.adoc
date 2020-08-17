@@ -1,122 +1,86 @@
-=== Design aplikace. Práce s canvasem
- `animation`
+== JSON – úvod 
 
-JSON – úvod
 JSON: JavaScript Object Notation.
 JSON je syntaxe pro ukládání a výměnu dat.
 JSON používá syntaxi JavaScript, ale formát JSON je pouze text.
 Text lze číst a použít jako datový formát libovolným programovacím jazykem.
 
-Pravidla syntaxe JSON
+= Pravidla syntaxe JSON
 Syntaxe JSON je odvozena od syntaxe zápisu objektu JavaScript:
 Data jsou ve dvojicích jmen / hodnot
 Data jsou oddělena čárkami
 Kudrnaté závorky drží objekty
 Čtvercové závorky obsahují pole
 
-JSON používá JavaScript syntaxi
+= JSON používá JavaScript syntaxi
 Protože syntaxe JSON je odvozena od zápisu objektu JavaScript, pro práci s JSON v JavaScriptu je potřeba jen velmi málo dalšího softwaru.
 Pomocí JavaScriptu můžete vytvořit objekt a přiřadit mu data, například:
 
 Příklad
-var person = {jméno: "John", věk: 31, město: "New York"};
+`var person = {jméno: "John", věk: 31, město: "New York"};`
 K objektu JavaScript můžete přistupovat takto:
 
 Příklad
 // vrací Johna
-Jméno.osoby;
+`Jméno.osoby;`
 
 Lze k němu také přistupovat takto:
 Příklad
 // vrací Johna
-osoba ["jméno"];
+`osoba ["jméno"];`
 
-Pole JavaScriptu jako JSON
+=Pole JavaScriptu jako JSON
 Stejným způsobem lze objekty JavaScriptu použít jako JSON, pole JavaScript lze také použít jako JSON.
 
 V JSON musí být hodnoty jedním z následujících typů dat:
-Řetězec ( string )
+`Řetězec ( string )
 číslo
 objekt (objekt JSON)
 pole ( array )
 boolean
-nula
+nula`
 Hodnoty JSON nemohou být jedním z následujících typů dat:
-funkce
+`funkce
 datum
-nedefinováno
+nedefinováno`
 
 Řetězce JSON
 Řetězce v JSON musí být psány ve dvojitých uvozovkách.
 
 Příklad
-{"name": "John"}
+`{"name": "John"}
 Čísla JSON
-Čísla v JSON musí být celé číslo nebo pohyblivá čárka.
+Čísla v JSON musí být celé číslo nebo pohyblivá čárka.`
 
 Příklad
-{"age": 30}
+`{"age": 30}
 Objekty JSON
-Hodnoty v JSON mohou být objekty.
+Hodnoty v JSON mohou být objekty.`
 
 Příklad
-{"zaměstnanec": {"jméno": "John", "věk": 30, "město": "New York"}}
+`{"zaměstnanec": {"jméno": "John", "věk": 30, "město": "New York"}}`
 Objekty jako hodnoty v JSON musí dodržovat stejná pravidla jako objekty JSON.
 
-Pole JSON
+=Pole JSON
 Hodnoty v JSON mohou být pole.
 
 Příklad
-{"zaměstnanci": ["John", "Anna", "Peter"]}
+`{"zaměstnanci": ["John", "Anna", "Peter"]}`
 JSON Booleans
 Hodnoty v JSON mohou být pravdivé / nepravdivé.
 
 Příklad
-{"sale": true}
+`{"sale": true}`
 JSON null
 Hodnoty v JSON mohou být nulové.
 
 Příklad
-{"middlename": null}
+`{"middlename": null}`
 
-JSON.parse () 
-Při příjmu dat z webového serveru jsou data vždy řetězec.
-Analyzujte data pomocí JSON.parse () a data se stanou objektem JavaScript.
-Příklad - Analýza JSON
-Představte si, že jsme dostali tento text z webového serveru:
-'{"name": "John", "age": 30, "city": "New York"}'
-Pomocí funkce JavaScript JSON.parse () převeďte text na objekt JavaScript:
-var obj = JSON.parse ('{"name": "John", "age": 30, "city": "New York"}');
-Ujistěte se, že je text napsán ve formátu JSON, jinak se zobrazí chyba syntaxe.
-
-Příklad
-JSON vrácený ze serveru je pole:
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200) {
-    var myArr = JSON.parse(this.responseText);
-    document.getElementById("demo").innerHTML = myArr[0];
-  }
-};
-xmlhttp.open("GET", "json_demo_array.txt", true);
-xmlhttp.send();
-
-JSON.stringify()
-A common use of JSON is to exchange data to/from a web server.
-When sending data to a web server, the data has to be a string.
-Convert a JavaScript object into a string with JSON.stringify().
-
-Zřetězte pole JavaScriptu
-Je také možné zřetězit pole JavaScriptu:
-Představte si, že máme toto pole v JavaScriptu:
-var arr = ["John", "Peter", "Sally", "Jane"];
-Pomocí funkce JavaScript JSON.stringify () ji převeďte na řetězec.
-var myJSON = JSON.stringify (arr);
-
-Objekty JSON
+= Objekty JSON
 Syntaxe objektu
 Příklad
-{"name": "John", "age": 30, "car": null}
+`{"name": "John", "age": 30, "car": null}`
 Objekty JSON jsou obklopeny složenými závorkami {}.
 Objekty JSON jsou zapsány ve dvojicích klíč / hodnota.
 Klíče musí být řetězce a hodnoty musí být platný datový typ JSON (řetězec, číslo, objekt, pole, boolean nebo null).
@@ -124,48 +88,30 @@ Klíče a hodnoty jsou odděleny dvojtečkou.
 Každý pár klíč / hodnota je oddělen čárkou.
 
 Příklad
-myObj = { "name":"John", "age":30, "car":null };
-x = myObj.name;
+`myObj = { "name":"John", "age":30, "car":null };
+x = myObj.name;`
 
-Pole JSON
+= Pole JSON
 Pole jako objekty JSON
 Příklad
-["Ford", "BMW", "Fiat"]
+`["Ford", "BMW", "Fiat"]`
 Pole v JSON jsou téměř stejná jako pole v JavaScriptu.
 V JSON musí být hodnoty pole typu string, number, object, array, boolean nebo null.
 V JavaScriptu mohou být hodnoty polí všechny výše uvedené, plus jakýkoli jiný platný výraz jazyka JavaScript, včetně funkcí, dat a nedefinovaných.
 
 Příklad
-{
+`{
 "name":"John",
 "age":30,
 "cars":[ "Ford", "BMW", "Fiat" ]
-}
+}`
 
 Novou aplikaci lze vytvořit spuštěním npm run newapp v základním adresáři SAGE2.
 Všechny vlastnosti jsou volitelné a jsou nastaveny na výchozí hodnoty, pokud není uvedeno.
-Property name	Type	Values	Notes
-main_script	string	<path>	Cesta k souboru obsahujícímu definici aplikace
-resize     	string	'proportional', 'free'	Režim změny velikosti okna
-width    	int	              Šířka okna v pixelech
-height   	int	              Výška okna v pixelech
-animation	boolean	
-sticky              	boolean	
-dependencies	[string]	  <path>, <uri>	Seznam závislostí aplikace
-load	              object		Objekt předaný do funkce načtení při spuštění
-icon       	string	<path>	Soubor obsahující ikonu aplikace
-title	              string		
-version        	string		Aktuální verze aplikace
-description	string		Krátký popis účelu vaší aplikace
-author                string		
-license         	string		Název licence aplikace
-keywords	[string]		Seznam klíčových slov přidružených k aplikaci
-filetypes	[string]		Seznam typů souborů, které může aplikace otevřít
-directory	string		
 Příklad aplikace
 Všechny aplikace potřebují minimálně složku obsahující dva soubory.
 Vytvořte složku. V této složce vytvořte soubor.Do souboru přidejte následující:
-{
+`{
   // Toto musí být název souboru skriptu
   "main_script": "helloWorld.js",
   // Šířka a výška, která se použije jako počáteční velikost aplikace při spuštění
@@ -201,4 +147,4 @@ Vytvořte složku. V této složce vytvořte soubor.Do souboru přidejte násled
 	},
 	
 	
-}
+}`
