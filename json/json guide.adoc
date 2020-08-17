@@ -108,8 +108,6 @@ Vytvořte složku. V této složce vytvořte soubor.Do souboru přidejte násled
   // false/true. informuje o přítomnosti animace v aplikace
   "animation": false,
   // Pro ušetření informace o nahrátech souborech
-  "load": {
-		"value": 4
-	},	
+  "load": {"value": 4},	
 }
 ----
