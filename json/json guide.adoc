@@ -1,18 +1,18 @@
-== JSON – úvod 
+= JSON – úvod 
 
 JSON: JavaScript Object Notation.
 JSON je syntaxe pro ukládání a výměnu dat.
 JSON používá syntaxi JavaScript, ale formát JSON je pouze text.
 Text lze číst a použít jako datový formát libovolným programovacím jazykem.
 
-= Pravidla syntaxe JSON
+== Pravidla syntaxe JSON
 Syntaxe JSON je odvozena od syntaxe zápisu objektu JavaScript:
 Data jsou ve dvojicích jmen / hodnot
 Data jsou oddělena čárkami
 Kudrnaté závorky drží objekty
 Čtvercové závorky obsahují pole
 
-= JSON používá JavaScript syntaxi
+== JSON používá JavaScript syntaxi
 Protože syntaxe JSON je odvozena od zápisu objektu JavaScript, pro práci s JSON v JavaScriptu je potřeba jen velmi málo dalšího softwaru.
 Pomocí JavaScriptu můžete vytvořit objekt a přiřadit mu data, například:
 
@@ -29,7 +29,7 @@ Příklad
 // vrací Johna
 `osoba ["jméno"];`
 
-=Pole JavaScriptu jako JSON
+== Pole JavaScriptu jako JSON
 Stejným způsobem lze objekty JavaScriptu použít jako JSON, pole JavaScript lze také použít jako JSON.
 
 V JSON musí být hodnoty jedním z následujících typů dat:
@@ -61,7 +61,7 @@ Příklad
 `{"zaměstnanec": {"jméno": "John", "věk": 30, "město": "New York"}}`
 Objekty jako hodnoty v JSON musí dodržovat stejná pravidla jako objekty JSON.
 
-=Pole JSON
+== Pole JSON
 Hodnoty v JSON mohou být pole.
 
 Příklad
@@ -77,7 +77,7 @@ Hodnoty v JSON mohou být nulové.
 Příklad
 `{"middlename": null}`
 
-= Objekty JSON
+== Objekty JSON
 Syntaxe objektu
 Příklad
 `{"name": "John", "age": 30, "car": null}`
@@ -91,7 +91,7 @@ Příklad
 `myObj = { "name":"John", "age":30, "car":null };
 x = myObj.name;`
 
-= Pole JSON
+== Pole JSON
 Pole jako objekty JSON
 Příklad
 `["Ford", "BMW", "Fiat"]`
@@ -111,7 +111,8 @@ Všechny vlastnosti jsou volitelné a jsou nastaveny na výchozí hodnoty, pokud
 Příklad aplikace
 Všechny aplikace potřebují minimálně složku obsahující dva soubory.
 Vytvořte složku. V této složce vytvořte soubor.Do souboru přidejte následující:
-`{
+`
+{
   // Toto musí být název souboru skriptu
   "main_script": "helloWorld.js",
   // Šířka a výška, která se použije jako počáteční velikost aplikace při spuštění
@@ -144,7 +145,6 @@ Vytvořte složku. V této složce vytvořte soubor.Do souboru přidejte násled
 	// Pro ušetření informace o nahrátech souborech
 	"load": {
 		"value": 4
-	},
-	
-	
-}`
+	},	
+}
+`
