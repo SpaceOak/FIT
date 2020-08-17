@@ -14,9 +14,5 @@
 "fileTypes": [ "txt" ],
 "resize": "free",
 "animation": false,
-"load": {
-		"value": 4
-	}
-	
-	
+"load": {"value": 4}
 }
