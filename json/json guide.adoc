@@ -127,23 +127,21 @@ Vytvořte složku. V této složce vytvořte soubor.Do souboru přidejte násled
   "description": "A product in the catalog",
   "type": "object"
   // Závislosti jsou uvedeny v jednoduchém objektu, který mapuje název balíčku na rozsah verzí. Rozsah verzí je řetězec, který má jeden nebo více deskriptorů oddělených mezerami. Závislosti lze také identifikovat pomocí tarball nebo git URL.
-  "dependencies": [
-		"neco.js"
-	],
- 	 // Stačí ukázat soubor obsahující ikonu aplikace
-	"icon": "obrazek.png",
-	// Vhodné pro správu verze
+  "dependencies": ["neco.js"],
+  // Stačí ukázat soubor obsahující ikonu aplikace
+  "icon": "obrazek.png",
+  // Vhodné pro správu verze
   "version": "1.0.0",
- 	 // Klíčové slova, vhodné pro vyhledovani souboru nebo aplikace
-	"keywords": [ "notepad", "collaborative", "text" ],
-	// Informace o formátech jiných souborů které se týká této applikace
-	"fileTypes": [ "txt" ],
-	// free nebo proportional. V závislosti na této proměně se mění konfigurace velikosti okna
-	"resize": "free",
-	// false/true. informuje o přítomnosti animace v aplikace
-	"animation": false,
-	// Pro ušetření informace o nahrátech souborech
-	"load": {
+  // Klíčové slova, vhodné pro vyhledovani souboru nebo aplikace
+  "keywords": [ "notepad", "collaborative", "text" ],
+  // Informace o formátech jiných souborů které se týká této applikace
+  "fileTypes": [ "txt" ],
+  // free nebo proportional. V závislosti na této proměně se mění konfigurace velikosti okna
+  "resize": "free",
+  // false/true. informuje o přítomnosti animace v aplikace
+  "animation": false,
+  // Pro ušetření informace o nahrátech souborech
+  "load": {
 		"value": 4
 	},	
 }
