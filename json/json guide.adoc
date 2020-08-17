@@ -17,7 +17,7 @@ Protože syntaxe JSON je odvozena od zápisu objektu JavaScript, pro práci s JS
 Pomocí JavaScriptu můžete vytvořit objekt a přiřadit mu data, například:
 
 Příklad
-`var person = {jméno: "John", věk: 31, město: "New York"};`
+`{jméno: "John", věk: 31, město: "New York"};`
 K objektu JavaScript můžete přistupovat takto:
 
 Příklad
