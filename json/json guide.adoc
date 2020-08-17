@@ -61,7 +61,6 @@ Příklad
 `{"zaměstnanec": {"jméno": "John", "věk": 30, "město": "New York"}}`
 Objekty jako hodnoty v JSON musí dodržovat stejná pravidla jako objekty JSON.
 
-== Pole JSON
 Hodnoty v JSON mohou být pole.
 
 Příklad
