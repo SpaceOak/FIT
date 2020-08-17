@@ -1,0 +1,24 @@
+{
+"main_script": "helloWorld.js",
+"width": 300,
+"lenght": 200,
+"title": "Hello World",
+"autor": "Dylan Kobayashi <dylank@hawaii.edu>",
+"license": "SAGE2-Software-Licence",
+"description": "A product in the catalog",
+"type": "object",
+"dependencies": [
+		"neco.js"
+	],
+"icon": "obrazek.png",
+"version": "1.0.0",
+"keywords": [ "notepad", "collaborative", "text" ],
+"fileTypes": [ "txt" ],
+"resize": "free",
+"animation": false,
+"load": {
+		"value": 4
+	}
+	
+	
+}
