@@ -19,9 +19,9 @@ Pomocí JavaScriptu můžete vytvořit objekt a přiřadit mu data, například:
 Příklad:
 ----
 {
-jméno: "John", 
-věk: 31, 
-město: "New York"
+  jméno: "John", 
+  věk: 31, 
+  město: "New York"
 }
 
 ----
