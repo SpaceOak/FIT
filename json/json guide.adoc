@@ -112,7 +112,6 @@ Příklad aplikace
 Všechny aplikace potřebují minimálně složku obsahující dva soubory.
 Vytvořte složku. V této složce vytvořte soubor.Do souboru přidejte následující:
 ----
-`
 {
   // Toto musí být název souboru skriptu
   "main_script": "helloWorld.js",
@@ -148,5 +147,4 @@ Vytvořte složku. V této složce vytvořte soubor.Do souboru přidejte násled
 		"value": 4
 	},	
 }
-`
 ----
