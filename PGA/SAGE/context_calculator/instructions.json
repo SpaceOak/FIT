@@ -1,0 +1,7 @@
+{
+  "main_script": "context_calculator.js",
+  "width": 300,
+  "height": 200,
+  "animation": true,
+  "title": "Context Calculator"
+}
